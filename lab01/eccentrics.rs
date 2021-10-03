@@ -1,15 +1,20 @@
 fn main() {
+    /* VARIABLES */
+    let V0: u8 = 0;
+    let V1 = 0u8;
+    let V2: bool = false;
+    let V3: u8 = 0u8;
+
+    /* DON'T CHANGE ANYTHING BELOW */
     println!("Rust eccentrics:");
     println!("================");
 
     /* for loop */
-    let V0: u8 = 0;
     for i in 0..V0 {
         println!("Happy ");
     }
 
     /* switch statement -> pattern matching */
-    let V1 = 0u8;
     match V1 {
         1 => println!("Triangle Man"),
         2 => println!("Chinese Erhu Guy"),
@@ -21,8 +26,6 @@ fn main() {
     }
 
     /* ternary operator */
-    let V2: bool = false;
-    let V3: u8 = 0u8;
     let s: &str = if V3 == 3 { "Go" } else { "Boo" };
 
     /* if statement */
