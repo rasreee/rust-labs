@@ -3,10 +3,8 @@
 Let’s see what happens if your program requires user input and you try to run GDB/LLDB on it. First, run the program defined by interactive-hello.rs to talk to an overly friendly program.
 
 ```/bin/bash
-
-```/bin/bash
-cargo build --example interactive_hello
-cargo run --example=interactive_hello
+$ rustc interactive_hello.rs
+$ ./interactive_hello
 ```
 
 Now, we’re going to try to debug it (even though there really are no bugs).

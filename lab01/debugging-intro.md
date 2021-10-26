@@ -1,11 +1,11 @@
 # Exercise 2: Debugging in Rust
 
-To finish this exercise, you'll need to install and setup [GDB Project Debugger](https://www.gnu.org/software/gdb/). Refer to [./gdb-setup.md] for help.
+To finish this exercise, you'll need to install and setup [GDB Project Debugger](https://www.gnu.org/software/gdb/). Refer to [$ ./gdb-setup.md] for help.
 
-For this exercise, you will find the [GDB reference card](./gdb5-refcard.pdf) useful. Compile hello.rs:
+For this exercise, you will find the [GDB reference card]($ ./gdb5-refcard.pdf) useful. Compile hello.rs:
 
 ```/bin/bash
-cargo build --example hello
+$ rustc hello.rs
 ```
 
 If you can’t run gdb, use lldb - it’s the same thing but with a different interface. Here's a list of command mappings from GDB to LLDB ([GDB to LDB command map](https://lldb.llvm.org/use/map.html)). I have a M1 Macbook Pro, and I couldn't get gdb to work on my machine for Rust. LLDB works perfectly fine especially using VSCode's debugger.

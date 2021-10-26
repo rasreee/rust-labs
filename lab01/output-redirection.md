@@ -18,12 +18,12 @@ In order to use our output later, we need to send our output to a file, instead 
 **NOTE:** Before actually fixing the bugs in the code, it's a good idea to first set up the **reporting**, then use that to debug your code. To compile & run your code, use
 
 ```/bin/bash
-cargo build --example primes
-cargo run --example=primes
+$ rustc primes.rs
+$ ./primes
 ```
 
 To print your output to the file
 
 ```/bin/bash
-cargo run --example=primes > primenumbers.txt
+$ ./primes > primenumbers.txt
 ```

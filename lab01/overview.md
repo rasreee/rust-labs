@@ -12,4 +12,4 @@
 2. [Intro to Debugging Rust](./debugging-intro.md)
 3. [Debugging User Input](./debug-with-user-input.md)
 4. [Output Redirection](./output-redirection.md)
-6. [Pointers and Structures in Rust](./pointers-and-structures.md) (TBA - working on this)
+5. [Pointers and Structures in Rust](./pointers-and-structures.md)
