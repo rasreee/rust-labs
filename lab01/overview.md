@@ -12,5 +12,4 @@
 2. [Intro to Debugging Rust](./debugging-intro.md)
 3. [Debugging User Input](./debug-with-user-input.md)
 4. [Output Redirection](./output-redirection.md)
-5. [Using Valgrind to Debug Heisenbugs](./debugging-with-valgrind.md) (TBA - working on this)
 6. [Pointers and Structures in Rust](./pointers-and-structures.md) (TBA - working on this)
